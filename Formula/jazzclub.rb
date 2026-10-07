@@ -3,9 +3,9 @@
 class Jazzclub < Formula
   desc "Console client for Pandora internet radio, a port of pianobar"
   homepage "https://github.com/tedtedted/jazzclub"
-  url "https://github.com/tedtedted/jazzclub/releases/download/v0.2.0/jazzclub-0.2.0-macos-arm64.tar.gz"
-  version "0.2.0"
-  sha256 "7d88955cde7d36b07c43a8f231c2a9b42314c6091d349cbad312381b20ff7266"
+  url "https://github.com/tedtedted/jazzclub/releases/download/v0.2.1/jazzclub-0.2.1-macos-arm64.tar.gz"
+  version "0.2.1"
+  sha256 "a32d202c392ce0805b1d50e3428553544fa51df83fd61dff7689198f2332ef7b"
   # jazzclub is MIT; the decoder library bundles LavaPlayer (Apache 2.0), mpg123 (LGPL 2.1), Opus,
   # Ogg, Vorbis and libsamplerate (BSD) and the Fraunhofer FDK AAC codec, which has no SPDX id
   license all_of: ["MIT", "Apache-2.0", "LGPL-2.1-only", "BSD-3-Clause", "BSD-2-Clause", :cannot_represent]
